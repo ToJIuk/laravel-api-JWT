@@ -1,0 +1,6 @@
+* text=auto
+
+*.* linguist-language=PHP
+
+/.github export-ignore
+CHANGELOG.md export-ignore
