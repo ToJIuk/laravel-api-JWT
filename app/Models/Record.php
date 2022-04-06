@@ -9,6 +9,13 @@ class Record extends Model
 {
     use HasFactory;
 
+    public $timestamps = false;
+
+    protected $fillable = [
+        'title',
+        'description',
+    ];
+
     protected $dates = [
         'date_modified',
     ];
